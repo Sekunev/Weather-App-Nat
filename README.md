@@ -2,6 +2,7 @@
 
 ### Check The Live Website ➡️ [Live Website](https://sekunev.github.io/Weather-App-Nat/)
 
+
 ### Description
 
 Project aims to display current weather data of searched city around the world with fetching Weather Api data.
