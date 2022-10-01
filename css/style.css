@@ -293,12 +293,9 @@ body {
   position: absolute;
   left: -9999px;
 }
-.input-hidden:hover {
-  border: 6px solid red;
-  opacity: 0.51;
-}
+
 label {
-  transition: all 1s;
+  transition: all 0.5s;
 }
 label:hover {
   transform: scale(120%);

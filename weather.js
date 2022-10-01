@@ -152,7 +152,7 @@ document.querySelector(".options").addEventListener("click", (e) => {
   if (e.target.parentElement.classList.contains("languages")) {
     lang = e.target.value;
     // lang = e.target.textContent;
-    // console.log(e.target);
+    console.log(e.target);
     // } else if (e.target.value == "en") {
     //   lang = e.target.value;
     // } else if (e.target.value == "fr") {
@@ -160,6 +160,7 @@ document.querySelector(".options").addEventListener("click", (e) => {
   } else if (e.target.parentElement.classList.contains("switch")) {
     units = e.target.value;
     degree = e.target.nextElementSibling.id;
+    console.log(e.target);
   }
   // if (e.target.value == "tr") {
   //   lang = e.target.value;
